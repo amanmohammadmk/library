@@ -1,0 +1,87 @@
+.log
+{
+    display: flex;
+    width: 600px;
+    flex-direction: column;
+    margin: auto;
+    margin-top: 100px;
+    background-color: white;
+    padding-bottom: 30px;
+    border-radius: 20px ;
+}
+
+.header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 9px;
+    width: 100%;
+    margin-top: 30px;
+}
+
+
+.text{
+    color: #000000;
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.underline{
+    width: 61px;
+    height: 3px;
+    background-color: #000000;
+    border-radius: 9px;
+}
+
+.inputs{
+    margin-top: 55px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.input{
+    display: flex;
+    align-items: center;
+    margin: auto;
+    width: 480px;
+    border-radius: 6px;
+}
+
+.input img{
+    margin: 0px 30px;
+}
+
+.input .field{
+    width: 400px;
+    background:transparent;
+    border: none;
+    outline: none;
+    color: #797979;
+    font-size: 19px;
+}
+
+.forget-password{
+    padding-left: 62px;
+    margin-top: 27px;
+    color: #797979;
+    font-size: 18px;
+}
+
+.forget-password span{
+    color: #4c00b4;
+    cursor: pointer;
+}
+
+.submit-container{
+    display: flex;
+    gap: 30px;
+    margin: 30px auto;
+}
+
+
+
+.gray{
+    background-color: #EAEAEA;
+    color: #676767;
+}
